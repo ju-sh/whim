@@ -57,20 +57,28 @@ However, it's quite usable in its present state and can be manually loaded into
 the browser in the debugging mode.
 
 ### Firefox
+This is a 'temporary' installation meant for debugging. So won't last between
+firefox sessions.
 
  1. Go to this url: `about:debugging`
  2. On the sidebar, click `This Firefox`
  3. Under `Temporary Extensions`, click the `Load Temporary Add-on` button
  4. Choose the `manifest.json` file in this repo
 
-Now this addon should show up as `Whim` in the list of `Temporary Extensions`
+Now this addon should show up as `Whim` in the list of `Temporary Extensions`.
 
 ### Chromium / Chrome
+This extension was not meant for Chromium-based browsers, but still seems to
+work fine.
+
+Can be added as an extension in developer mode.
 
  1. Go to this url: `chrome://extensions/`
  2. Enable the switch on the top right that says `Developer mode`
  3. Click on the `Load unpacked` button that will now appear on top left.
  4. Select the directory of this repo.
+
+Now this addon should show up as `Whim` under `All Extensions`.
 
 ## About
 
