@@ -128,11 +128,11 @@ document.addEventListener("keydown", event => {
         n = getNum();
         console.log(`k ${n}`);
         window.scrollBy(0,  -n*25);
-    } else if(event.key == 'h') {    // up
+    } else if(event.key == 'h') {    // left
         n = getNum();
         console.log(`h ${n}`);
         window.scrollBy(-n*25, 0);
-    } else if(event.key == 'l') {    // up
+    } else if(event.key == 'l') {    // right
         n = getNum();
         console.log(`l ${n}`);
         window.scrollBy(n*25, 0);
@@ -180,7 +180,7 @@ document.addEventListener("keydown", event => {
     } else if(event.key == 'U') {   // undo close tab. Restore last closed tab
         n = getNum();
         browser.runtime.sendMessage({"task": "U"});
-        console.log(`K: ${n}`);
+        console.log(`U: ${n}`);
     }
 
 });
